@@ -184,7 +184,7 @@ function App() {
                 <div className='dot'></div>
                 <img src={dailyReward} alt='Daily Reward' className='mx-auto w-12 h-12' />
                 <p className='text-[10px] text-center text-white mt-1'>Daily reward</p>
-                <p className='text-[10px] font-medium text-center text-gray-400 mt-2'>{dailyCipherTimeLeft}</p>
+                <p className='text-[10px] font-medium text-center text-gray-400 mt-2'>{dailyRewardTimeLeft}</p>
               </div>
               <div className='bg-[#272a2f] rounded-lg px-4 py-2 w-full relative'>
                 <div className='dot'></div>
@@ -234,6 +234,10 @@ function App() {
         <div className='text-center text-[#85827d] w-1/5 m-1 p-2 rounded-2xl'>
           <Friends className='w-8 h-8 mx-auto' />
           <p className='mt-1'>Friends</p>
+        </div>
+        <div className='text-center text-[#85827d] w-1/5 m-1 p-2 rounded-2xl'>
+          <Coins className='w-8 h-8 mx-auto' />
+          <p className='mt-1'>Earn</p>
         </div>
         <div className='text-center text-[#85827d] w-1/5 m-1 p-2 rounded-2xl'>
           <img src={hamsterCoin} alt='Airdrop' className='w-8 h-8 mx-auto' />
